@@ -35,7 +35,7 @@
 /* C */
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
+
 #include <errno.h>
 
 const char *bus_str(int bus);
