@@ -2,7 +2,7 @@
     #include <ctype.h>
     #include <string.h>
      
-    int main()
+    int main(int argc,char *argv[])
     {
     char string[100];
     int i,found=0;
