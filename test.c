@@ -3,13 +3,14 @@
 
 int main(int argc,char *argv[])
 {
- int a,b,c;
+ int a,b;
 printf("\n enter the values of a and b");
 scanf("%d%d ",&a,&b);
-c =a+b;
+a =a+b;
+b= a-b;
 a= a-b;
-b=a-b;
-printf("%d",c);
+
+printf("%d %d",a,b);
 
 
 return 0;
